@@ -14,6 +14,8 @@ cd my-email-folder
 npm install
 ```
 
+edit the `config.json` to change the path of the template or the props for the component 
+
 to open a hot reloading server run [localhost:3000](http://localhost:3000):
 
 ```bash

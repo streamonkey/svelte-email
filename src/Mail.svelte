@@ -1,8 +1,11 @@
 <script>
     export let title
+    export let body
 </script>
 
 <p>{title},</p>
+
+{body}
 
 <a href="http://example.com">example.com</a>
 
