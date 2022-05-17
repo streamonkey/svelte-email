@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+body>#html,
+body>#text {
+    flex: 0 0 50%;
+    border: 1px solid black;
+    height: 100vh;
+    overflow: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}

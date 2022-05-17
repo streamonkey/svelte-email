@@ -1,0 +1,7 @@
+{
+    "mailTemplate": "./src/Mail.svelte",
+    "data": {
+        "title": "Hello World",
+        "body": "This is a test email"
+    }
+}

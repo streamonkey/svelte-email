@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel='stylesheet' href='/global.css'>
+
+</head>
+
+<body>
+    <div id="html"></div>
+    <pre id="text"></pre>
+</body>
+
+<script>
+    fetch("/mail.html").then(res => res.text()).then(html => {
+        document.getElementById("html").innerHTML = html
+    })
+
+    fetch("/mail.txt").then(res => res.text()).then(text => {
+        document.getElementById("text").textContent = text
+    })
+</script>
+
+</html>
